@@ -110,7 +110,7 @@ leapYear(2024);
 
 //9 Abby está hackeando un sistema de seguridad en una misión secreta. Para acceder, debe introducir un código numérico. La puerta solo se abrirá si el número es par y mayor que 50, o si es impar pero un múltiplo de 7. Crea una función que reciba un número y determine si Abby podrá entrar ("Acceso concedido") o si la puerta seguirá bloqueada ("Acceso denegado").
 
-const hackerCamila = code => {
+const hackerAbby = code => {
   if ((code % 2 === 0 && code > 50) || (code % 2 !== 0 && code % 7 === 0)) {
     console.log('Acceso concedido');
   } else {
